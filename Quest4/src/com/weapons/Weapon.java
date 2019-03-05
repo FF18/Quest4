@@ -17,7 +17,7 @@ public abstract class Weapon {
 	public void setOwner(String owner) {
 		this.owner = owner;
 	}
-	public int getStregth() {
+	public int getStrength() {
 		return strength;
 	}
 
