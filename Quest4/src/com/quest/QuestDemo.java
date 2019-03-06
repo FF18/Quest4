@@ -1,16 +1,17 @@
 package com.quest;
 
+import com.weapons.Knife;
 import com.weapons.Weapon;
 //import com.weapons.Gun;
 
 public class QuestDemo {
 
 	public static void main(String[] args) {
-		Knight knight = new Knight("Felix", null);
+		Knight knight = new Knight("Felix", 78);
 		knight.sayName();
-//		Knife knife = new Knife(0," " , 9);
+		Knife knife = new Knife(75,knight , 9);
 //		Superman superman = new Superman("Henry", 80);
-//		Gun knife2 = new Gun(0," " , 8);
+		Gun gun = new Gun(88," " , 8);
 		
 //		knight.sayName();
 //		knight.getWeapon();

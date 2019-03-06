@@ -4,9 +4,9 @@ public class Gun extends Weapon {
 	private int bullets;
 	final int clip = 6;
 	
-	public Gun(int getStrength, String getOwner, int bullets) {
-		setStrength(70);
-		setOwner("Colt");
+	public Gun(int getStrength(), String getOwner(), int bullets) {
+		getStrength(70);
+		getOwner("Colt");
 		this.bullets = bullets;
 	}
 	

@@ -1,28 +1,29 @@
 package com.weapons;
 
+import com.quest.Person;
+
 public abstract class Weapon {
-	private int strength;//value range 0...100
-	final int value = 100;
-	private String owner;//a person
+	private final int strength;//value range 0...100
+	private Person owner;//a person
 	
+	public Weapon(int stren, Person person) {
+		this.strength = stren;
+		this.owner = person;
+	}
 	public void takeStrength() {
-		if(getStrength() > 0 && getStrength() <= value) {
+		//if(getStrength() > 0 && getStrength() <= value) {
 			System.out.println("strong weapon");
-		}
+		//}
 	}
 	
-	public String getOwner() {
+	public Person getOwner() {
 		return owner;
 	}
-	public void setOwner(String owner) {
+	public void setOwner(Person owner) {
 		this.owner = owner;
 	}
 	public int getStrength() {
 		return strength;
-	}
-
-	public void setStrength(int strength) {
-		this.strength = strength;
 	}
 
 }
