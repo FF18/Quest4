@@ -12,7 +12,7 @@ public class QuestDemo {
 //		Superman superman = new Superman("Henry", 80);
 //		Gun knife2 = new Gun(0," " , 8);
 		
-		knight.sayName();
+//		knight.sayName();
 //		knight.getWeapon();
 //		knight.getName();
 		
