@@ -8,7 +8,7 @@ public abstract class Person {
 	}
 	public abstract void sayName();
 	{
-		System.out.println("My name is " + getName() + " and I'm a " + name);
+//		System.out.println("My name is " + getName() + " and I'm a " + name);
 	}
 	public String getName() {
 		return name;

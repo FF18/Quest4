@@ -6,7 +6,7 @@ public abstract class Weapon {
 	private String owner;//a person
 	
 	public void takeStrength() {
-		if(strength > 0 && strength <= value) {
+		if(getStrength() > 0 && getStrength() <= value) {
 			System.out.println("strong weapon");
 		}
 	}
@@ -19,6 +19,10 @@ public abstract class Weapon {
 	}
 	public int getStrength() {
 		return strength;
+	}
+
+	public void setStrength(int strength) {
+		this.strength = strength;
 	}
 
 }
