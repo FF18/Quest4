@@ -3,7 +3,7 @@ package com.quest;
 import com.weapons.Weapon;
 
 public class Knight extends Person {
-	private static final String Weapon = "Knight";
+	private static String face = "Knight";
 	private Weapon weapon;
 
 	public Knight(String name, Weapon weapon) {
@@ -13,8 +13,7 @@ public class Knight extends Person {
 
 	@Override
 	public void sayName() {
-		System.out.println("My name is " + getName() + " and I'm a "+ Weapon);
-//		System.out.println("Lancelot2 ");
+		System.out.println("My name is " + getName() + " and I'm a "+ face);
 		
 	}
 	
